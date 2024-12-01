@@ -17,4 +17,6 @@ $query = "INSERT INTO fornecedores (nome_forn, cnpj_forn)
 
 mysqli_query($conexao, $query);
 
-echo"Fornecedor cadastrado com sucesso";
+//echo"Fornecedor cadastrado com sucesso";//
+
+header('location:index.php');
