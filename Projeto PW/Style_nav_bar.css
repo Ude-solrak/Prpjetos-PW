@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0 ;
+    margin: 0 ;
     font-family: 'roboto', sans-serif;
 }
 
 header {
-    background-color: #000000;
-    box-shadow: 0px, 3px, 10px #000000;
+    background-color: #5C95FF;
+    box-shadow: 0px, 3px, 10px #5C95FF;
     z-index: 1;
 }
 
@@ -15,53 +15,63 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 6rem;
+  
 }
 
 .logo{
     display: flex;
     align-items: center;
+    
 
 }
 
 .logo h1{
-    color: #5C95FF;
+    color: #000000;
+   
 }
 
 .nav-list{
     display: flex;
     align-items: center;
+  
 }
 
 .nav-list ul{
     display: flex;
     justify-content: center;
     list-style: none;
+    
 }
 
 .nav-item{
     margin: 0 15px;
+    
 }
 
 
 .nav-link{
     text-decoration: none;
     font-size: 1.15rem;
-    color: #5C95FF;
+    color: #000000;
     font-weight: 400;
+ 
 }
 
 .login-button button{
     border: none;
-    background-color: #5C95FF;
+    background-color: #000000;
     padding: 10px 15px;
     border-radius: 5px;
+    align-items: center;
+   
 }
 
 .login-button button a{
     text-decoration: none;
-    color: #000000;
+    color: #5C95FF;
     font-weight: 500;
     font-size: 1.1rem;
+    
 }
 
 .mobile-menu-icon{

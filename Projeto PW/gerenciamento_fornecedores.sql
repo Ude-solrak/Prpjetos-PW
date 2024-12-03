@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 02/12/2024 às 02:08
+-- Tempo de geração: 03/12/2024 às 05:33
 -- Versão do servidor: 10.4.32-MariaDB
 -- Versão do PHP: 8.2.12
 
@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `fornecedores` (
-  `id` int(11) NOT NULL,
+  `id` int(3) NOT NULL,
   `nome_forn` varchar(256) NOT NULL,
   `cnpj_forn` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -38,18 +38,8 @@ CREATE TABLE `fornecedores` (
 --
 
 INSERT INTO `fornecedores` (`id`, `nome_forn`, `cnpj_forn`) VALUES
-(17, 'nagumo', '12345678912345'),
-(18, 'assai', '12345678912345'),
-(19, 'atacadao', '12345678912345'),
-(20, 'walmart', '12345678912345'),
-(21, 'walmart', '12345678912345'),
-(22, 'nagumo', '12345678912345'),
-(23, 'aksjdhkasdlas', 'sdjiashdkasjnas'),
-(24, '', ''),
-(25, '', ''),
-(26, 'xcz', 'zxczx'),
-(27, 'dsdas', 'dasdas'),
-(28, 'sdad', 'asdsd');
+(1, 'nagumo', '12345678912345'),
+(2, 'assai', '98765432198765');
 
 --
 -- Índices para tabelas despejadas
@@ -69,7 +59,7 @@ ALTER TABLE `fornecedores`
 -- AUTO_INCREMENT de tabela `fornecedores`
 --
 ALTER TABLE `fornecedores`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
+  MODIFY `id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
